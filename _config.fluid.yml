@@ -1,0 +1,44 @@
+# ----------------------------------------------------------------
+# Fluid 主题专用配置
+# ----------------------------------------------------------------
+
+# 浏览器标签栏图标 (Favicon)
+favicon: /img/fluid.png
+apple_touch_icon: /img/fluid.png
+
+# 导航栏设置
+navbar:
+  blog_title: "我的赛博空间" # 导航栏左侧的文字
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+
+# 文章页设置
+post:
+  banner_img: /img/default.png # 文章详情页顶部的图
+  
+  # ----------------------------------------------------------------
+  # 这里就是你要的：关闭分享按钮
+  # ----------------------------------------------------------------
+  share:
+    enable: false # 改成 false，分享按钮就消失了
+
+  # 文章版权声明
+  copyright:
+    enable: true
+    content: '本博客所有文章除特别声明外，均采用 CC BY-SA 4.0 知网许可协议。转载请注明出处！'
+
+# 首页大图文案
+index:
+  banner_img: /img/default.png
+  text: "ATIT - 探索与记录" # 首页显示的文字
+  slogan:
+    enable: true
+    text: "hola" # 首页副标题
+
+# 脚注设置 (页面最底部)
+footer:
+  content: '<span>Made with Hexo & Fluid</span>'
