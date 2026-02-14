@@ -55,6 +55,15 @@ color:
   link_color: "#2f4154"
   link_hover_color: "#1c2b39"
 
+dark:
+  # 暗黑模式下的全局背景色（默认是深蓝色/黑色）
+  background_color: "#841021"
+  # 暗黑模式下的文字颜色
+  text_color: "#c4c6c9"
+  # 暗黑模式下的链接颜色
+  link_color: "#abb2bf"
+
+
 # 脚注设置
 footer:
   content: '<span>Made with Hexo & Fluid</span>'
