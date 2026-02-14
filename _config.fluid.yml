@@ -2,13 +2,13 @@
 # Fluid 主题专用配置
 # ----------------------------------------------------------------
 
-# 浏览器标签栏图标 (Favicon)
+# 浏览器标签栏图标
 favicon: /img/fluid.png
 apple_touch_icon: /img/fluid.png
 
-# 导航栏设置 a
+# 导航栏设置
 navbar:
-  blog_title: "My Blog" # 导航栏左侧的文字
+  blog_title: "My Blog"
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
@@ -16,68 +16,45 @@ navbar:
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
 
-# 文章页设置
-post:
-  banner_img: /img/default.png # 文章详情页顶部的图
-  
-  # ----------------------------------------------------------------
-  # 这里就是你要的：关闭分享按钮
-  # ----------------------------------------------------------------
-  share:
-    enable: false # 改成 false，分享按钮就消失了
-
-  # 文章版权声明
-  copyright:
-    enable: true
-    content: '本博客所有文章除特别声明外，均采用 CC BY-SA 4.0 知网许可协议。转载请注明出处！'
-
-# 首页大图文案
+# 首页设置 (合并后的版本)
 index:
   banner_img: /img/default.png
-  text: "ATIT - 探索与记录" # 首页显示的文字
+  text: "ATIT - 探索与记录"
   slogan:
     enable: true
-    text: "hola" # 首页副标题
-
-# 脚注设置 (页面最底部)
-footer:
-  content: '<span>Made with Hexo & Fluid</span>'
-#---------------------------
-# 作者与个人信息补充 (新增)
-#---------------------------
-index:
-  post_url_target: _blank # 文章链接打开方式：_self 当前页，_blank 新窗口
+    text: "hola"
+  post_url_target: _self
   post_meta:
-    date: true         # 是否显示发布日期
-    category: true     # 是否显示分类
-    tag: true          # 是否显示标签
+    date: true
+    category: true
+    tag: true
 
+# 文章页设置 (合并后的版本)
 post:
+  banner_img: /img/default.png
+  share:
+    enable: false
+  copyright:
+    enable: true
+    content: '本博客所有文章除特别声明外，均采用 CC BY-SA 4.0 许可协议。转载请注明出处！'
   meta:
     author:
-      enable: true    # 是否在文章标题下显示作者名
+      enable: true
     date:
-      enable: true    # 是否显示发布日期
-      format: "YYYY-MM-DD HH:mm" # 日期格式
-    wordcount:
-      enable: false   # 是否显示字数统计（需要插件，建议先关掉）
-    views:
-      enable: false   # 是否显示访问次数（需要插件，建议先关掉）
-
-  # 这里是关于文章底部的更细致控制
+      enable: true
+      format: "YYYY-MM-DD HH:mm"
   updated:
-    enable: false     # 是否显示最后更新时间
-  
-  # 如果你觉得文章底部的上一篇/下一篇太乱，可以这里控制
+    enable: false
   prev_next:
     enable: true
 
-#---------------------------
-# 颜色与全局风格 (新增)
-#---------------------------
+# 颜色设置
 color:
-  # 你可以在这里修改你的主题色
   navbar_bg_color: "#2f4154"
   navbar_bg_color_next: "#2f4154"
   link_color: "#2f4154"
   link_hover_color: "#1c2b39"
+
+# 脚注设置
+footer:
+  content: '<span>Made with Hexo & Fluid</span>'
