@@ -57,11 +57,12 @@ color:
 
 dark:
   enable: true
-  # 暗黑模式下的全局背景色（默认是深蓝色/黑色）
+  # 1. 网页正文背景颜色
   background_color: "#841021"
-  # 暗黑模式下的文字颜色
+  # 2. 关键！强制修改暗黑模式下的导航栏背景
+  navbar_bg_color: "#841021" 
+  # 3. 导航栏文字颜色
   text_color: "#c4c6c9"
-  # 暗黑模式下的链接颜色
   link_color: "#abb2bf"
 
 
