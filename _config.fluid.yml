@@ -33,7 +33,7 @@ index:
 # 文章页设置
 post:
   banner_img: /img/default.png
-  banner_mask_alpha: 0
+
   share:
     enable: false
   copyright:
@@ -55,13 +55,6 @@ color:
   navbar_bg_color_next: "#841021"
   link_color: "#2f4154"
   
-  # --- 暗黑模式（Fluid 标准写法：在 color 块内定义 dark） ---
-  dark:
-    enable: true             # 注意：没引号！
-    body_bg_color: "#841021"  # 网页大背景改红
-    navbar_bg_color: "#841021" # 导航栏改红
-    text_color: "#c4c6c9"
-    link_color: "#abb2bf"
 
 # 脚注设置
 footer:
