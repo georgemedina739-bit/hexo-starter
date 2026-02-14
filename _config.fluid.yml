@@ -6,7 +6,7 @@
 favicon: /img/fluid.png
 apple_touch_icon: /img/fluid.png
 
-# 导航栏设置
+# 导航栏设置 a
 navbar:
   blog_title: "My Blog" # 导航栏左侧的文字
   menu:
