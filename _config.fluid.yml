@@ -42,3 +42,42 @@ index:
 # 脚注设置 (页面最底部)
 footer:
   content: '<span>Made with Hexo & Fluid</span>'
+#---------------------------
+# 作者与个人信息补充 (新增)
+#---------------------------
+index:
+  post_url_target: _blank # 文章链接打开方式：_self 当前页，_blank 新窗口
+  post_meta:
+    date: true         # 是否显示发布日期
+    category: true     # 是否显示分类
+    tag: true          # 是否显示标签
+
+post:
+  meta:
+    author:
+      enable: true    # 是否在文章标题下显示作者名
+    date:
+      enable: true    # 是否显示发布日期
+      format: "YYYY-MM-DD HH:mm" # 日期格式
+    wordcount:
+      enable: false   # 是否显示字数统计（需要插件，建议先关掉）
+    views:
+      enable: false   # 是否显示访问次数（需要插件，建议先关掉）
+
+  # 这里是关于文章底部的更细致控制
+  updated:
+    enable: false     # 是否显示最后更新时间
+  
+  # 如果你觉得文章底部的上一篇/下一篇太乱，可以这里控制
+  prev_next:
+    enable: true
+
+#---------------------------
+# 颜色与全局风格 (新增)
+#---------------------------
+color:
+  # 你可以在这里修改你的主题色
+  navbar_bg_color: "#2f4154"
+  navbar_bg_color_next: "#2f4154"
+  link_color: "#2f4154"
+  link_hover_color: "#1c2b39"
