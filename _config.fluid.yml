@@ -54,6 +54,8 @@ color:
   navbar_bg_color_next: "#841021"
   link_color: "#2f4154"
   link_hover_color: "#1c2b39"
+  theme_dark:
+    background_color: "#841021"
 
 dark:
   enable: true
