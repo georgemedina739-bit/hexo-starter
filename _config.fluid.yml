@@ -9,6 +9,8 @@ apple_touch_icon: /img/fluid.png
 # 导航栏设置
 navbar:
   blog_title: "My Blog"
+  # 强制导航栏不透明，这样能直接看到你设的红色
+  alpha: 1.0
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
@@ -16,58 +18,50 @@ navbar:
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
 
-# 首页设置 (合并后的版本)
+# 首页设置
 index:
   banner_img: /img/1000003553.jpg
+  # 去掉大图上方的蓝色遮罩，让你的红色透出来
+  banner_mask_alpha: 0
   text: "ATIT - 探索与记录"
   slogan:
     enable: true
     text: "hola"
   post_url_target: _blank
-  post_meta:
-    date: true
-    category: true
-    tag: true
+  post_meta: { date: true, category: true, tag: true }
 
-# 文章页设置 (合并后的版本)
+# 文章页设置
 post:
   banner_img: /img/default.png
+  banner_mask_alpha: 0
   share:
     enable: false
   copyright:
     enable: true
     content: '本博客所有文章除特别声明外，均采用 CC BY-SA 4.0 许可协议。转载请注明出处！'
   meta:
-    author:
-      enable: true
-    date:
-      enable: true
-      format: "YYYY-MM-DD HH:mm"
-  updated:
-    enable: false
-  prev_next:
-    enable: true
+    author: { enable: true }
+    date: { enable: true, format: "YYYY-MM-DD HH:mm" }
+  updated: { enable: false }
+  prev_next: { enable: true }
 
-# 颜色设置
+# ----------------------------------------------------------------
+# 颜色配置（重点：白天和黑夜模式都在这里统一管理）
+# ----------------------------------------------------------------
 color:
+  # --- 白天模式 ---
+  body_bg_color: "#f8f9fa"
   navbar_bg_color: "#841021"
   navbar_bg_color_next: "#841021"
   link_color: "#2f4154"
-  link_hover_color: "#1c2b39"
-  theme_dark:
-    background_color: "#841021"
-    navbar_bg_color: "#841021"
-
-theme_dark:
-  enable: true
-  # 1. 网页正文背景颜色
-  background_color: "#841021"
-  # 2. 关键！强制修改暗黑模式下的导航栏背景
-  navbar_bg_color: "#841021" 
-  # 3. 导航栏文字颜色
-  text_color: "#c4c6c9"
-  link_color: "#abb2bf"
-
+  
+  # --- 暗黑模式（Fluid 标准写法：在 color 块内定义 dark） ---
+  dark:
+    enable: true             # 注意：没引号！
+    body_bg_color: "#841021"  # 网页大背景改红
+    navbar_bg_color: "#841021" # 导航栏改红
+    text_color: "#c4c6c9"
+    link_color: "#abb2bf"
 
 # 脚注设置
 footer:
