@@ -23,7 +23,7 @@ index:
   slogan:
     enable: true
     text: "hola"
-  post_url_target: _self
+  post_url_target: _blank
   post_meta:
     date: true
     category: true
