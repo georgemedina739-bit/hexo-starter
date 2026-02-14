@@ -50,7 +50,7 @@ post:
 
 # 颜色设置
 color:
-  navbar_bg_color: "#2f4154"
+  navbar_bg_color: "#841021"
   navbar_bg_color_next: "#2f4154"
   link_color: "#2f4154"
   link_hover_color: "#1c2b39"
