@@ -8,7 +8,7 @@ apple_touch_icon: /img/fluid.png
 
 # 导航栏设置
 navbar:
-  blog_title: "我的赛博空间" # 导航栏左侧的文字
+  blog_title: "My Blog" # 导航栏左侧的文字
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
