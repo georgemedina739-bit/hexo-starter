@@ -10,7 +10,7 @@ apple_touch_icon: /img/fluid.png
 navbar:
   blog_title: "My Blog"
   # 强制导航栏不透明，这样能直接看到你设的红色
-  alpha: 1.0
+  # alpha: 1.0
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
@@ -22,7 +22,7 @@ navbar:
 index:
   banner_img: /img/1000003553.jpg
   # 去掉大图上方的蓝色遮罩，让你的红色透出来
-  banner_mask_alpha: 0
+  # banner_mask_alpha: 0
   text: "ATIT - 探索与记录"
   slogan:
     enable: true
@@ -65,4 +65,4 @@ color:
 
 # 脚注设置
 footer:
-  content: '<span>Made with Hexo & Fluid</span>'
+  content: '<span>Fuck Made with Hexo & Fluid</span>'
