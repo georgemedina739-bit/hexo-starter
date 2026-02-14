@@ -18,7 +18,7 @@ navbar:
 
 # 首页设置 (合并后的版本)
 index:
-  banner_img: /img/1000003553.png
+  banner_img: /img/1000003553.jpg
   text: "ATIT - 探索与记录"
   slogan:
     enable: true
