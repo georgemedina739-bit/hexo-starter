@@ -56,6 +56,7 @@ color:
   link_hover_color: "#1c2b39"
 
 dark:
+  enable: "true"
   # 暗黑模式下的全局背景色（默认是深蓝色/黑色）
   background_color: "#841021"
   # 暗黑模式下的文字颜色
