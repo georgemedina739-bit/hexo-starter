@@ -12,7 +12,7 @@ navbar:
 
   ground_glass:
     enable: true
-    px: 3
+    px: 5
     alpha: 0
   
   
