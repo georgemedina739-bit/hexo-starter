@@ -61,7 +61,7 @@ color:
   board_color_dark: "#841021"
   navbar_bg_color: "#841021"
   navbar_bg_color_next: "#841021"
-  navbar_bg_color_dark: "#841021"
+  # navbar_bg_color_dark: "#841021"
   link_color: "#2f4154"
   
       
