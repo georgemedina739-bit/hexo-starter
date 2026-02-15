@@ -58,7 +58,7 @@ color:
   # --- 白天模式 ---
   # body_bg_color: "#841021"
   body_bg_color_dark: "#841021"
-  board_color_dark: "#FF7DB6"
+  board_color_dark: "#000000"
   navbar_bg_color: "#841021"
   navbar_bg_color_next: "#841021"
   navbar_bg_color_dark: "#ffffff"
