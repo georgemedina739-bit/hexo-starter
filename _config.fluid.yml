@@ -56,6 +56,8 @@ color:
   navbar_bg_color_next: "#841021"
   link_color: "#2f4154"
   dark:
+    primary: "#841021"
+    background: "#841021"
     body_bg_color: "#841021"
     navbar_bg_color: "#841021"
       
