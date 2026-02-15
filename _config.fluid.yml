@@ -9,8 +9,8 @@ apple_touch_icon: /img/fluid.png
 # 导航栏设置
 navbar:
   blog_title: "My Blog"
-  # 强制导航栏不透明，这样能直接看到你设的红色
-  # alpha: 1.0
+  
+  alpha: 0
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
@@ -56,12 +56,9 @@ color:
   board_color_dark: "#841021"
   navbar_bg_color: "#841021"
   navbar_bg_color_next: "#841021"
+  navbar_bg_color_dark: "#841021"
   link_color: "#2f4154"
-  dark:
-    primary: "#841021"
-    background: "#841021"
-    body_bg_color: "#841021"
-    navbar_bg_color: "#841021"
+  
       
   
 
