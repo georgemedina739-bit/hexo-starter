@@ -1,0 +1,34 @@
+/* 暗黑模式下生效的样式 */
+[data-user-color-scheme="dark"],
+html[data-user-color-scheme="dark"] {
+  /* 全局背景 */
+  --fluid-bg: #0f1117;
+  --fluid-card-bg: #161b22;
+  --fluid-text: #c9d1d9;
+  --fluid-text-secondary: #8b949e;
+  --fluid-border: #30363d;
+
+  /* 主色调（链接、按钮等）建议保持和亮色模式有区分度 */
+  --fluid-primary: #79c0ff;          /* 浅蓝系比较舒服 */
+  --fluid-primary-hover: #58a6ff;
+
+  /* 代码块（很重要） */
+  --fluid-code-bg: #0d1117;
+  --fluid-code-border: #30363d;
+
+  /* 其他常见要改的 */
+  --fluid-header-bg: #161b22;
+  --fluid-footer-bg: #161b22;
+  --fluid-toc-bg: #161b22;
+}
+
+/* 如果你想代码高亮也换一套暗色主题 */
+[data-user-color-scheme="dark"] pre,
+[data-user-color-scheme="dark"] code {
+  background: #0d1117 !important;
+}
+
+/* 夜间模式下图片稍微提亮（可选） */
+[data-user-color-scheme="dark"] img {
+  filter: brightness(0.9) contrast(1.1);
+}
