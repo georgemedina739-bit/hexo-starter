@@ -9,6 +9,11 @@ apple_touch_icon: /img/fluid.png
 # 导航栏设置
 navbar:
   blog_title: "My Blog"
+
+  ground_glass:
+    enable: true
+    px: 3
+    alpha: 0.7
   
   alpha: 0
   menu:
